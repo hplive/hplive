@@ -1,20 +1,22 @@
-# I'm Helder Pereira  
+# I'm Helder Pereira
 
-**Software Engineer | System Architect | Problem Solver**  
+**Software Engineer | System Architect | Team Lead**
 
-I design and build modular, scalable systems — from backend APIs to automation workflows.  
-I love turning complexity into clean architecture and ideas into working code.  
+I design and build modular systems — from backend APIs and schedulers to automation and data workflows.  
+Focused on clean architecture, reliability, and real-world impact.
 
 ---
 
 ### What I Do
-- **Backend Development** — APIs, schedulers, and services with `.NET 8` and `Node.js`
-- **Architecture & Integration** — modular systems, microservices, and API gateways
-- **Automation & AI** — workflows with `n8n`, `Graph API`, and `Google AI Agents`
-- **DevOps & Orchestration** — `Hangfire`, `Quartz.NET`, `Docker`, and environment management
-- **Frontend Engineering** — `Angular`, `React`, and `WinUI 3`
-- **Blockchain & Smart Contracts** — `Solidity`, `staking`, `RBAC`, and governance
-- **Data & Analytics** — SQL pipelines, performance tracking, and business logic optimization
+- **Backend Development** — REST APIs, schedulers, and services with `.NET 8`, `Entity Framework`, and `SQL Server`
+- **Architecture & Integration** — modular systems, repositories, and API gateways using `Ocelot`
+- **Automation & Jobs** — background processes, notifications, and orchestration with `Hangfire` and `Quartz.NET`
+- **Frontend Engineering** — `Angular`, `React`, and `WinUI 3` for web and desktop applications
+- **Mobile Development** — Android/iOS apps with `Flutter` and `Firebase` (experimental social app prototype)
+- **Data & Analytics** — SQL performance tuning, reconciliation engines, and process indicators
+- **Security & Auth** — AD integration, `JWT`, `OAuth2`, and internal RBAC systems
+- **Blockchain** — `Solidity` smart contracts, staking, governance, and bridge compatibility
+- **AI & Workflow Automation** — automation scripts and integrations with `OpenAI`, `Graph API`, and `Google APIs`
 
 ---
 
@@ -23,61 +25,53 @@ I love turning complexity into clean architecture and ideas into working code.
 | Category | Tools & Technologies |
 |-----------|----------------------|
 | **Languages** | C#, JavaScript/TypeScript, SQL, Solidity |
-| **Backend Frameworks** | .NET 8 · ASP.NET Core · Node.js · Express |
+| **Backend** | .NET 8 · ASP.NET Core · Node.js · Entity Framework · Dapper |
 | **Frontend** | Angular · React · WinUI 3 · Razor Pages |
-| **Databases** | SQL Server · PostgreSQL · Supabase · Dapper · EF Core |
-| **Architecture** | Clean Architecture · Microservices · CQRS · API Gateway (Ocelot) |
-| **Automation & AI** | n8n · Google AI Agents · Power Automate · ChatGPT API |
-| **DevOps & Tools** | Docker · GitHub Actions · Hangfire · Quartz.NET · Cloudflare R2 |
-| **Security** | JWT · RBAC · OAuth2 · Active Directory Integration |
-| **Blockchain** | Solidity · ERC20 · Staking · Governance · Snapshot Systems |
+| **Mobile** | Flutter · Firebase · Android SDK · MAUI (experimental) |
+| **Databases** | SQL Server · PostgreSQL · Supabase |
+| **Architecture** | Repository Pattern · Clean Architecture · API Gateway (Ocelot) |
+| **Automation** | Hangfire · Quartz.NET · Windows Services · n8n |
+| **DevOps & Tools** | Docker · GitHub Actions · Cloudflare R2 |
+| **Security** | JWT · OAuth2 · Azure AD · RBAC |
+| **Blockchain** | Solidity · ERC20 · Staking · Governance |
+| **AI & Integrations** | OpenAI API · Google APIs · Microsoft Graph API |
 
 ---
 
 ### Selected Projects
 
-#### Modular Systems & Microservices
-Designed a distributed platform composed of independent APIs (Users, Admin, Trips, Destinations, Sentinel, Gateway).  
-Focused on **clean architecture**, **dependency injection**, and **secure communication** between services.  
-Used `.NET 8`, `Entity Framework`, `PostgreSQL`, and an `Ocelot`-based API Gateway.
+#### Enterprise Automation & Payments Platform
+Architected and developed a large-scale enterprise platform for payment processing, order reconciliation, and automation.  
+Focused on microservice architecture, job orchestration, data consistency, and security.  
+Stack: `.NET 8`, `Entity Framework`, `SQL Server`, `Hangfire`, `Quartz.NET`, and `API Gateway`.
 
-#### ⚙️ API & Automation Framework
-Developed background services for scheduled jobs, notifications, and data synchronization.  
-Implemented custom task orchestration using `Quartz.NET`, `Hangfire`, and `Graph API` integration for messaging and email delivery.
+#### Modular Travel Platform Prototype
+Designed a distributed travel management system composed of multiple APIs (Users, Trips, Destinations, Admin, Gateway).  
+Implemented clean architecture, cross-service communication, and secure token-based access.  
+Stack: `.NET 8`, `PostgreSQL`, `Entity Framework`, `Ocelot`, `JWT`.
 
 #### NotifyMe (Desktop App)
-Built a **WinUI 3** application for wellness reminders — hydration, posture, and vision breaks — using `.NET`, `MVVM`, and system tray notifications.  
-Integrated scheduling logic and persistent local storage for recurring reminders.
+Created a **WinUI 3** application for wellness reminders — hydration, posture, and eye breaks.  
+Implements scheduling, notifications, and persistent local storage for recurring reminders.  
+Built with `.NET 8`, `MVVM`, and system tray integration.
 
 #### Helderium / Nekoin
-Developed an **ERC20 token** in `Solidity`, adding **staking**, **role-based access control**, **governance**, and **bridge compatibility**.  
-Used `Hardhat`, `OpenZeppelin`, and `Ethers.js` for testing, deployment, and automation scripts.
+Developed an **ERC20 token** in `Solidity` with staking, role-based access control, governance, and bridge compatibility.  
+Used `Hardhat`, `OpenZeppelin`, and `Ethers.js` for deployment, automation, and testing.
 
-#### Gateway & Middleware
-Created a unified gateway using `Ocelot` for routing, load balancing, and authentication across multiple APIs.  
-Configured dynamic environment switching via environment variables (`DEV`, `PP`, `PRD`) and integrated Swagger aggregation.
+#### RetailHack
+Hackathon project developed overnight with `Node.js` and `Gemini AI`, building autonomous digital agents for retail analytics and content generation.  
+Demonstrated full-stack automation and API orchestration.
 
-#### Payments & Reconciliation Engine
-Built a backend engine to reconcile transactions between orders and financial records.  
-Implemented complex matching algorithms for **split payments**, **refund detection**, and **cross-database validation** in `SQL Server`.  
-Included background processing, audit logging, and dynamic filtering in DataTables.
-
-#### Workflow Automation & Bots
-Created automations for report generation, alerts, and social content using `n8n`, `Node.js`, and `Google AI Agents`.  
-Integrated REST and Graph APIs for task automation, scheduling, and data ingestion.
-
-#### Personal Projects & Tools
-- **PhotoStacker:** script for astrophotography stacking and image alignment  
-- **Travel Planner:** API prototype for route planning and trip management  
-- **Sysk / PKM Tools:** personal knowledge system using Markdown + Supabase backend  
-- **AI Assistants:** prompt-based workflow agents for task planning and project automation  
+#### Experimental Social App
+Developed a cross-platform social prototype (Android/iOS) for user matching and anonymous interaction, backed by `Firebase`.  
+Includes authentication, data sync, and responsive design inspired by swipe-based interfaces.
 
 ---
 
 ### GitHub Overview
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hplive&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hplive&layout=compact&theme=github_dark)
-
 
 ---
 
