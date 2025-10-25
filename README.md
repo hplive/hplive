@@ -75,8 +75,9 @@ Integrated REST and Graph APIs for task automation, scheduling, and data ingesti
 ---
 
 ### GitHub Overview
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hplive&show_icons=true&theme=github_dark&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hplive&layout=compact&theme=github_dark&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hplive&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hplive&layout=compact&theme=github_dark)
+
 
 ---
 
