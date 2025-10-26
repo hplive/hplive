@@ -31,7 +31,7 @@ Focused on clean architecture, reliability, and real-world impact.
 | **Databases** | SQL Server · PostgreSQL · Supabase |
 | **Architecture** | Repository Pattern · Clean Architecture · API Gateway (Ocelot) |
 | **Automation** | Hangfire · Quartz.NET · Windows Services · n8n |
-| **DevOps & Tools** | Docker · GitHub Actions · Cloudflare R2 |
+| **DevOps & Tools** | Docker · Podman . GitHub Actions |
 | **Security** | JWT · OAuth2 · Azure AD · RBAC |
 | **Blockchain** | Solidity · ERC20 · Staking · Governance |
 | **AI & Integrations** | OpenAI API · Google APIs · Microsoft Graph API |
