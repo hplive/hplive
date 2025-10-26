@@ -12,9 +12,9 @@ Focused on clean architecture, reliability, and real-world impact.
 - **Architecture & Integration** — modular systems, repositories, and API gateways using `Ocelot`
 - **Automation & Jobs** — background processes, notifications, and orchestration with `Hangfire` and `Quartz.NET`
 - **Frontend Engineering** — `Angular`, `React`, and `WinUI 3` for web and desktop applications
-- **Mobile Development** — Android/iOS apps with `Flutter` and `Firebase` (experimental social app prototype)
+- **Mobile Development** — Android/iOS apps with `Flutter` and `Firebase` or `Supabase`
 - **Data & Analytics** — SQL performance tuning, reconciliation engines, and process indicators
-- **Security & Auth** — AD integration, `JWT`, `OAuth2`, and internal RBAC systems
+- Security & Auth — AD integration, `JWT`, `OAuth2`, and internal role-based access control `(RBAC)`
 - **Blockchain** — `Solidity` smart contracts, staking, governance, and bridge compatibility
 - **AI & Workflow Automation** — automation scripts and integrations with `OpenAI`, `Graph API`, and `Google APIs`
 
