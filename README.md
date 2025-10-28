@@ -16,7 +16,7 @@ Focused on clean architecture, reliability, and real-world impact.
 - **Data & Analytics** — SQL performance tuning, reconciliation engines, and process indicators
 - **Security & Auth** — AD integration, `JWT`, `OAuth2`, and internal role-based access control `(RBAC)`
 - **Blockchain** — `Solidity` smart contracts, staking, governance, and bridge compatibility
-- **AI & Workflow Automation** — automation scripts and integrations with `OpenAI`, `Graph API`, and `Google APIs`
+- **Workflow Automation** — automation scripts and integrations with `Graph API`, `Google APIs` and `others`
 
 ---
 
@@ -24,17 +24,17 @@ Focused on clean architecture, reliability, and real-world impact.
 
 | Category | Tools & Technologies |
 |-----------|----------------------|
-| **Languages** | C#, JavaScript/TypeScript, SQL, Solidity |
+| **Languages** | C# · JavaScript · TypeScript · SQL · Solidity |
 | **Backend** | .NET 8 · ASP.NET Core · Node.js · Entity Framework · Dapper |
-| **Frontend** | Angular · React · WinUI 3 · Razor Pages |
+| **Frontend** | Angular · React · WinUI 3 · Razor Pages · Vanilla |
 | **Mobile** | Flutter · Firebase · Android SDK · MAUI (experimental) |
-| **Databases** | SQL Server · PostgreSQL · Supabase |
-| **Architecture** | Repository Pattern · Clean Architecture · API Gateway (Ocelot) |
+| **Databases** | SQL Server · PostgreSQL · Supabase · MongoDB · MySQL |
+| **Architecture** | Repository Pattern · Clean Architecture · Gateway (Ocelot) |
 | **Automation** | Hangfire · Quartz.NET · Windows Services · n8n |
 | **DevOps & Tools** | Docker · Podman . GitHub Actions |
 | **Security** | JWT · OAuth2 · Azure AD · RBAC |
 | **Blockchain** | Solidity · ERC20 · Staking · Governance |
-| **AI & Integrations** | OpenAI API · Google APIs · Microsoft Graph API |
+| **Integrations** | Google APIs & Services · Microsoft Graph API |
 
 ---
 
@@ -43,7 +43,7 @@ Focused on clean architecture, reliability, and real-world impact.
 #### Enterprise Automation & Payments Platform
 Architected and developed a large-scale enterprise platform for payment processing, order reconciliation, and automation.  
 Focused on microservice architecture, job orchestration, data consistency, and security.  
-Stack: `.NET 8`, `Entity Framework`, `SQL Server`, `Hangfire`, `Quartz.NET`, and `API Gateway`.
+Stack: `.NET 8`, `Entity Framework`, `SQL Server`, `Hangfire`, `Quartz.NET`, and `Gateway Ocelot`.
 
 #### Modular Travel Platform Prototype
 Designed a distributed travel management system composed of multiple APIs (Users, Trips, Destinations, Admin, Gateway).  
